@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Set Time</title>
+</head>
+<body>
+    <h1>Set Time for typing in space</h1>
+    <form action="/settime" method="post">
+        <label for="time">Time (HHMMSS):</label>
+        <input type="text" id="time" name="time" required>
+        <br>
+        <label for="lag_time">Lag Time (seconds):</label>
+        <input type="number" id="lag_time" name="lag_time" required>
+        <br>
+        <input type="submit" value="Set Time">
+    </form>
+</body>
+</html>
